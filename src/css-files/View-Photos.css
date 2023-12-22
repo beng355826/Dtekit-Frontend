@@ -1,0 +1,22 @@
+
+
+.photo-gallery {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    gap: 1rem;
+    
+  }
+  
+  .photo-item img {
+    width: 29rem;
+    height: 15.5rem;
+    object-fit: cover;
+  }
+
+ 
+
+
+  

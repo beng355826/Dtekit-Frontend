@@ -1,0 +1,117 @@
+
+
+
+
+button{
+    margin:10px;
+    font-size: larger;
+    margin-left: 3em;
+}
+
+label{
+    margin: 1em;
+    font-size: larger;
+}
+
+.login-box-1 {
+  border: solid 5px  #102640;
+  position: absolute;
+  top:48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px; /* adjust as needed */
+  height: 400px; /* adjust as needed */
+  text-align: center;
+
+  background-image: url('https://storage.googleapis.com/dtekit_pics/2021posterss171425345_306307237513078_7906430367158453020_n.png?GoogleAccessId=dtekit-pics-mixes%40norse-avatar-403219.iam.gserviceaccount.com&Expires=1893456000&Signature=aFHYcwfFj6%2BWPBizWe38uolwJzqdZSIb1F1l97NJtwGFBsB%2F6695cKV1xqrRSjo26Izq5YMaWnRX6RkZqZKhdCmxDtDr6g%2FQemytp%2FRFrS%2BQd%2F8Qo31nzHcB7f3ekklLT5VIG5GD26fp260or0LMadHLkoKH6eSQNFiGi7uMc2I9%2BRSARDNeL0LBgCzU7VE4JuuXVF9agJpRfo7GeUm3WiH%2FsWA67nwqnbfdzv%2FHnZJJwDnutAD8Pwo3x8AeKL67iqt7MFQ8HQVHyp1qPr%2FGsCCUJU1SXCM0FLsvrJgpWas5ChjR7GkCudlHzswf7KfbotvCn8PQbGLY9AjO8z5bvg%3D%3D');
+  background-position: center;
+  background-position-x:14%;
+  background-position-y:19% ;
+}
+
+
+/* .login-box-1 {
+    border: solid 5px  #102640; ;
+    position: absolute;
+    top:48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 50vh;
+    min-height: 40vh;
+    max-width: 50vh;
+    max-height: 40vh;
+    text-align: center;
+
+    background-image: url('https://storage.googleapis.com/dtekit_pics/2021posterss171425345_306307237513078_7906430367158453020_n.png?GoogleAccessId=dtekit-pics-mixes%40norse-avatar-403219.iam.gserviceaccount.com&Expires=1893456000&Signature=aFHYcwfFj6%2BWPBizWe38uolwJzqdZSIb1F1l97NJtwGFBsB%2F6695cKV1xqrRSjo26Izq5YMaWnRX6RkZqZKhdCmxDtDr6g%2FQemytp%2FRFrS%2BQd%2F8Qo31nzHcB7f3ekklLT5VIG5GD26fp260or0LMadHLkoKH6eSQNFiGi7uMc2I9%2BRSARDNeL0LBgCzU7VE4JuuXVF9agJpRfo7GeUm3WiH%2FsWA67nwqnbfdzv%2FHnZJJwDnutAD8Pwo3x8AeKL67iqt7MFQ8HQVHyp1qPr%2FGsCCUJU1SXCM0FLsvrJgpWas5ChjR7GkCudlHzswf7KfbotvCn8PQbGLY9AjO8z5bvg%3D%3D');
+    background-position: center;
+    background-position-x:14%;
+    background-position-y:19% ;
+    
+  } */
+
+ 
+
+
+  .title{
+    font-size: 4em;
+    text-align: center;
+    position: absolute;
+     top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:       #f6bc9c;
+    min-width: 700px
+    
+  }
+
+
+  @media (max-width:700px){
+    .title{
+      min-width: 600px;
+    }
+
+    .login-box-1{
+      margin-top: 40px;
+    }
+  }
+
+
+  .login-box-2{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    opacity: 0.95;
+  }
+
+  .email-password{
+
+    color:      #f6bc9c;
+    background-image: linear-gradient(-180deg, #542669 0%, #394598 100%);
+    margin-left: 3.4em;
+    margin-bottom: 1.05em;
+    border: #EAAC8B solid 2px;
+    border-radius: .5rem;
+    padding-bottom: 0.5em;
+    padding-top: .80em;
+    max-width: 21em;
+    font-size: large;
+
+  }
+
+
+  footer{
+
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+     top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  
+
+.wrongUser{
+  color: rgba(255, 0, 0, 0.676);
+}

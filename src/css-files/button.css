@@ -1,0 +1,33 @@
+
+
+/* CSS */
+.button-login {
+  background-image: linear-gradient(-180deg, #542669 0%, #2f3a86 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #EAAC8B;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 100%;
+  border: #EAAC8B solid 2px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  max-width: 20em;
+  margin-left: 5.7em;
+}
+
+.button-login:hover {
+  background-image: linear-gradient(-180deg, #1d53c9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+  .button-login {
+    padding: 1rem 2rem;
+  }
+}
+

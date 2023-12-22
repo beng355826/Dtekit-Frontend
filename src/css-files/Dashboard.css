@@ -1,0 +1,190 @@
+
+
+.grid-box-1{
+       grid-column: 1;
+       
+}
+
+.grid-box-2{
+ grid-column:4;
+ text-align: end;
+}
+
+.grid-box-3{
+  grid-column: 1;
+  grid-row: 2;
+  background-image: linear-gradient(-180deg, #422669 0%, #3f4a91 100%);
+  border: solid 2px ;
+  border-width: 0 2px 2px 2px;
+  text-align: center;
+  max-width: 20vw;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+.grid-box-3:hover{
+  background-image: linear-gradient(-180deg, #735a95 0%, #3f4a91 100%);
+}
+
+
+
+
+
+
+.nav-menu{
+  background-image: linear-gradient(-180deg, #422669 0%, #3f4a91 100%);
+  border: solid 2px ;
+  text-align: center;
+  min-width: 15vw;
+  max-width: 20vw;
+
+}
+
+.nav-menu:hover{
+  background-image: linear-gradient(-180deg, #735a95 0%, #3f4a91 100%);
+  border: solid 4px ;
+  cursor: pointer;
+  
+}
+
+.nav-menu-open{
+  background-image: linear-gradient(-180deg, #422669 0%, #3f4a91 100%);
+  border: solid 2px ;
+  text-align: center;
+  min-width: 15vw;
+  max-width: 20vw;
+
+}
+
+.nav-menu-open:hover{
+  border: solid 2px ;
+  cursor: pointer;
+  
+}
+
+
+
+
+.main {
+    z-index: 1;
+    border: solid 5px  #102640; ;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90%;
+    min-height: 80vh;
+    max-width: 90%;
+    max-height: 80vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em;
+    color: #f6bc9c;
+    padding: 0.5em;
+
+  }
+
+  .view-photos{
+    grid-column: 1 / 3;
+    background-image: url('https://storage.googleapis.com/dtekit_pics/2021posterss171425345_306307237513078_7906430367158453020_n.png?GoogleAccessId=dtekit-pics-mixes%40norse-avatar-403219.iam.gserviceaccount.com&Expires=1893456000&Signature=aFHYcwfFj6%2BWPBizWe38uolwJzqdZSIb1F1l97NJtwGFBsB%2F6695cKV1xqrRSjo26Izq5YMaWnRX6RkZqZKhdCmxDtDr6g%2FQemytp%2FRFrS%2BQd%2F8Qo31nzHcB7f3ekklLT5VIG5GD26fp260or0LMadHLkoKH6eSQNFiGi7uMc2I9%2BRSARDNeL0LBgCzU7VE4JuuXVF9agJpRfo7GeUm3WiH%2FsWA67nwqnbfdzv%2FHnZJJwDnutAD8Pwo3x8AeKL67iqt7MFQ8HQVHyp1qPr%2FGsCCUJU1SXCM0FLsvrJgpWas5ChjR7GkCudlHzswf7KfbotvCn8PQbGLY9AjO8z5bvg%3D%3D');
+    color: black;
+
+  }
+
+  .update-account {
+    grid-column: 3 / 4;
+    background-image: url('https://storage.cloud.google.com/css-dtekit/Screenshot%202023-11-13%20at%2012.26.46.png');
+    background-size: 500px;
+    background-position-y:-20%;
+    background-position-x: 50%
+   
+  }
+
+  .upload-photos{
+
+    grid-column: 1 / 2;
+    background-image: url('https://storage.googleapis.com/dtekit_pics/2022posterss279898499_5257678237612141_1300197090271828471_n.jpg?GoogleAccessId=dtekit-pics-mixes%40norse-avatar-403219.iam.gserviceaccount.com&Expires=1893456000&Signature=LGUq3lsKCuQFEZVjoED4QckuHeyJIiWnxthpIyAXuaY1Cf0GFMXxPEtbq4ENFCB%2Bdt3YKBTOWbsGF%2F3TdZ2E%2BBVb6Xl%2FNb8K0mbUg%2FXD%2BFHLlxAr8zBRIBU%2Fwp3nZBf%2F9Jyh0G%2BDgqVAwNB48Mbogz8v%2FL2q5L4ohuu27juZOk9%2FjelpgxxytgdZNY5Fq00r7SpT1oo%2FNoVlb2kO44gm%2BM%2FwgaBc1aI0bRrNn5G648ZkfZS9Dv7s7WKuQb9eKq7r5lJKzlDFq2zoExI8yYNHt8Cm%2FGpvbns2d1jIOlPxwE2RKTifufGUCo0%2BgPlpDn7A6BCt5mG7ePxzivG1hEbI2w%3D%3D');
+    background-position-x:45%;
+    background-position-y:45%;
+  }
+
+
+  .listen-mixes{
+
+   
+
+    
+    grid-column : 2/4;
+    background-image: url('https://storage.googleapis.com/dtekit_pics/2020posterss118532924_314135493159513_5315833910503781299_n.jpg?GoogleAccessId=dtekit-pics-mixes%40norse-avatar-403219.iam.gserviceaccount.com&Expires=1893456000&Signature=FuV%2BIloJ4rhG%2FThx2LHLAD2KpgzUQpPEeDizj2o4GUxG2fBI%2FCE%2BzaOPIVFeuciV8aeZ3tvFuOy2JAsgeUbEFhRhVO5U41H%2FFsJbXNKGEhdIWsWvl0qpnf4gHldAi8UlUiQMt9p1sOrRdRxhbTbh5OpgK3YW8ZXbXVlBMPqoufVvJ3Po1YIqnPEu%2B%2BjOhBCs4Lq7me828N5mtNF6kmor43xWWfRnsVNi5C%2BmaHKUNKxnMyVcTn4Fz8CzvZu8jsd7089gO8F45XP95gbDbb7O8un6SvLDOxfxGSzk9Gu1NcEx9rFSTIlvHwaTa7WmfOOUuEwg8HH11Lg5qx42X1Ieuw%3D%3D');
+    background-position: center;
+    background-position-x:117%;
+    background-position-y:45% ;
+    color: #102640
+  }
+
+  .get-info{
+    grid-column : 1 / 4;
+    background-image: url('https://storage.cloud.google.com/css-dtekit/Screenshot%202023-11-13%20at%2012.22.55.png')
+  }
+
+
+  .get-info:hover,
+  .listen-mixes:hover,
+  .update-account:hover,
+  .upload-photos:hover,
+  .view-photos:hover{
+    transform: scale(1.02);
+    border: #f6bc9c solid 3px;
+    border-radius: 2%;
+    cursor: pointer;
+    
+  }
+
+
+  @media only screen and (max-width: 1300px) {
+    /* Media query for screens with a maximum width of 900 pixels */
+  
+    .main {
+      grid-template-columns: 1fr; 
+      grid-template-areas: " .view-photos" ".update-account" "upload-photos" ".listen-mixes" ".get-info";
+      min-width: 90%;
+    min-height: 80vh;
+    max-width: 90%;
+   
+
+    }
+  
+    .view-photos,
+    .update-account,
+    .upload-photos,
+    .listen-mixes,
+    .get-info {
+      grid-column: 1;
+      min-height: 100px;
+      
+    }
+
+    .view-photos{
+      background-position: center top;
+      color: black;
+    }
+
+    .listen-mixes{
+      background-position: right bottom%;
+      
+    }
+
+    .listen-mixes > h1{
+      
+      color: #f6bc9c;
+      background-color: rgb(72, 157, 46);
+      display:inline-block;
+
+    }
+
+
+  }
+
+ 
